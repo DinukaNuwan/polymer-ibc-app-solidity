@@ -1,3 +1,6 @@
+# use PowerShell instead of sh:
+set shell := ["powershell.exe", "-c"]
+
 # Install dependencies
 install:
     echo "Installing dependencies"
